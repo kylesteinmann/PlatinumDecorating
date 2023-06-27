@@ -1,0 +1,18 @@
+<mat-toolbar class="toolbar">
+
+  <button color="accent" mat-icon-button [matMenuTriggerFor]="menu" class="toolbar-icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Home</button>
+    <button mat-menu-item>Pricing</button>
+    <button mat-menu-item>Gallery</button>
+    <button mat-menu-item>Contact</button>
+  </mat-menu>
+
+  <span class="title">Platinum Decorating</span>
+
+  <span class="spacer"></span>
+
+</mat-toolbar>
