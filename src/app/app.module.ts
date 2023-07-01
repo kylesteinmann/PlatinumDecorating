@@ -9,12 +9,16 @@ import { MatMenuModule } from '@angular/material/menu';
 
 import { HeaderComponent } from './Components/header/header.component';
 import { AppComponent } from './app.component';
+import { PricingComponent } from './Components/pricing/pricing.component';
+import { HomeComponent } from './Components/home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    PricingComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
